@@ -8,7 +8,7 @@ if( isset( $_SESSION['counter'] ) ) {
     $msgtitle .= "!Bentornato!";
     $msg = "Access n°".  $_SESSION['counter'];
 }else {
-    $msgtitle .= "!!!Benvenuto !!!";
+    $msgtitle .= "!!!Benvenuto per la prima Volta!!!";
     $_SESSION['counter'] = 1;
 }
 
